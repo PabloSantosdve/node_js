@@ -32,7 +32,7 @@ server.get('/videos', (request) => {
     console.log(search)
 
     const videos = database.list(search)
-
+ 
     console.log(videos)
 
     return videos
